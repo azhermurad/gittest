@@ -1,0 +1,96 @@
+body{
+  margin: 0px;
+
+}
+
+/* 
+#page{
+   
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 270px 1fr 100px;
+  grid-template-rows: 100px 1fr 50px  ;
+
+  grid-template-areas: "h h h"
+                         "n m p"    
+                          "f f f";
+}
+
+.mai{
+  grid-area: mai;
+  display: none;
+}
+ header{
+  grid-area: h;
+  background-color: royalblue;
+}
+
+.itemone{
+  background-color: aquamarine;
+  flex-basis: 40%;
+  
+}
+.itemtwo{
+  background-color: thistle;
+  flex-basis: 40%;
+}
+.itemtwo{
+  grid-area: p;
+}
+ main{
+  grid-area: m;
+  background-color: yellow
+  ;display: flex;
+  justify-content: center;
+}
+ nav{
+  grid-area: n;
+  background-color:rosybrown
+}
+footer{
+  grid-area: f;
+  background-color: yellowgreen;
+}
+
+
+@media (max-width:700px){
+
+
+  #page{
+   
+    
+    grid-template-columns: 100px 1fr ;
+    grid-template-rows: 100px 1fr 20px ;
+  
+    grid-template-areas: "h h"
+                           "mai m"    
+                        
+                            
+                            "f f"
+                            
+                            ;
+  }
+  .mai{
+    display: block;
+   
+  }
+  nav{
+    display: none;
+  }
+
+  main{
+   flex-direction: column;
+   justify-content: space-between;
+  }
+} */
+
+.flexBox{
+  display: flex;
+  background-color: aquamarine;
+  /* height: 100vh; */
+  flex-wrap: wrap;
+}
+
+.items{
+  flex: 50%;
+}
